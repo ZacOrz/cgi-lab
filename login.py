@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
-import os
-import json
+import os, sys, cgi
 from templates import login_page, secret_page, after_login_incorrect
-import sys
-import cgi
 import secret
 
 form = cgi.FieldStorage()
